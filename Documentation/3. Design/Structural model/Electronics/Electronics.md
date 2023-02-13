@@ -31,7 +31,7 @@ Resistance 5 (R5)	| ELEC_Resist_LED_2	|
 Resistance 6 (R6)	| ELEC_Resist_LED_3	| 		
 Resistance 7 (R7)	| ELEC_Resist_LED_4	| 			
 Resistance 8 (R8)	| ELEC_Resist_LED_5	| 
-5V power supply	| ELEC_Alim5V	| 1	| Alimentation AC/DC, ITE, 1 sortie, 2.75 W, 5 V, 550 mA	| https://fr.farnell.com/brainboxes/pw-600/power-supply-5v-1a-es-357/dp/2096366?st=alimentation%205v	| 27,77 | 
+DC-DC Step Down Module	| ELEC_Alim5V	| 1	| Abaisseur LM2596s DC-DC, 24V 12V 5V 3V | https://fr.aliexpress.com/item/1005003032264323.html | 2,30 | 
 12V power supply	| ELEC_Alim12V	| 1	| Adaptateur AC/DC 12V c.c., 2A, 24W, , Régulée	| https://fr.rs-online.com/web/p/adaptateurs-ac-dc/1753324?cm_mmc=FR-PLA-DS3A-_-google-_-CSS_FR_FR_Alimentations_et_transformateurs_Whoop-_-(FR:Whoop!)+Adaptateurs+AC/DC-_-1753324&matchtype=&pla-370976687757&gclid=Cj0KCQjwxIOXBhCrARIsAL1QFCbjgBdOY3BMhupPiywYVdsT5aeT05L4zefR6RXDtFUW6gS1CuGbczEaAmj8EALw_wcB&gclsrc=aw.ds	| 16,26 | 
 5V coaxial cable end	| ELEC_Embout_5V	| 2	| Prise d'alimentation CC, 5A, Montage sur CI, 12 V c.c.	| https://fr.rs-online.com/web/p/connecteurs-d-alimentation-dc/8051696	| 2,359 | 
 12V coaxial cable end	| ELEC_Embout_12V	| 		
@@ -75,7 +75,8 @@ Picture of the card with relay and drivers mounted on
   <img src="https://github.com/TomGosnik/FairEmbo-Project/blob/main/Source/Pictures/cablage%204.jpg" />
 </p>
 
-Power wiring : (Note that ascending order of motor pin colors is always Blue - Red - Green - Black)
+Power wiring : 
+Before wiring, please ensure that DC-DC step down module output is set to 5,2V (you can adjuste voltage with the small blue potentiometer on the board and check the value with a volt-meter). Also note for motors that ascending order of motor pin colors is always Blue - Red - Green - Black
 
 <p align="center">
   <img src="https://github.com/TomGosnik/FairEmbo-Project/blob/main/Source/Pictures/Cablage%202.jpg" />
